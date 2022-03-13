@@ -1,14 +1,4 @@
 using FluentMediator;
-using FoodDelivery.API.Extensions.Middleware;
-using FoodDelivery.Application.Handlers;
-using FoodDelivery.Application.Mappers;
-using FoodDelivery.Application.Services;
-using FoodDelivery.Domain.Restaurant;
-using FoodDelivery.Domain.Restaurant.Commands;
-using FoodDelivery.Domain.Restaurant.Events;
-using FoodDelivery.Infrastructure.Factories;
-using FoodDelivery.Infrastructure.Repositories;
-using FoodDelivery.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;

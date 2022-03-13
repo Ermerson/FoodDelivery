@@ -1,0 +1,10 @@
+﻿global using FoodDelivery.API.Extensions.Middleware;
+global using FoodDelivery.Application.Handlers;
+global using FoodDelivery.Application.Mappers;
+global using FoodDelivery.Application.Services;
+global using FoodDelivery.Domain.Restaurant;
+global using FoodDelivery.Domain.Restaurant.Commands;
+global using FoodDelivery.Domain.Restaurant.Events;
+global using FoodDelivery.Infrastructure.Factories;
+global using FoodDelivery.Infrastructure.Repositories;
+global using FoodDelivery.Persistence;
